@@ -34,6 +34,14 @@ return {
     "simrat39/rust-tools.nvim",
     ft = { "rust" },
   },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        width = 60,
+      }
+    }
+  },
   -- {
   --   "saecki/crates.nvim",
   --   ft = {"rust", "toml"},
@@ -57,6 +65,7 @@ return {
     name = "catppuccin",
     priority = 1000,
     opts = {
+      transparent_background = true,
       background = { light = "latte", dark = "frappe"},
     },
   },
